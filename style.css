@@ -124,6 +124,7 @@ li {
     border-radius: 17px;
     padding: 8px;
     margin-right: 10px;
+    transition: all 0.3s ease;
 }
 
 li:hover {
@@ -155,6 +156,28 @@ footer{
     height: 200px;
 }
 
+footer{
+    padding: 30px;
+    text-align: center;
+}
+
+#io{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+}
+
+.ico{
+    margin: 20px;
+    font-size: 40px;
+    transition: all 0.3s ease;
+}
+
+.ico:hover{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(16, 2, 81, 0.6);
+    color: rgb(208, 191, 221);
+}
+
 @media (max-width: 768px) {
     html{
         scroll-padding-top: 160px;
@@ -173,7 +196,7 @@ footer{
     }
 
     nav {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     li {
