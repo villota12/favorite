@@ -3,11 +3,48 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to right, rgb(191,178,243), rgb(150,202,247), rgb(156,220,170), rgb(229,225,171), rgb(243,198,165), rgb(248,163,168));
+    background-image: linear-gradient(to right, rgb(102, 90, 152), rgb(150,202,247), rgb(156,220,170), rgb(229,225,171), rgb(243,198,165), rgb(248,163,168));
     font-family: Poppins, sans-serif;
     margin: 0;
 }
+#tin{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+span{
+    color: white;
+}
+#int{
+    color: rgb(4, 53, 53);
+}
 
+#ccc{
+    margin: 30px;
+}
+
+.ag{
+    width: 50%;
+    color: white;
+}
+#int{
+    font-size: 50px;
+}
+
+#ab{
+    width: 450px;
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgb(19, 14, 5);
+}
+
+/* khadjhsd */
 div.A {
     display: flex;
     justify-content: center;
@@ -56,6 +93,7 @@ nav {
     left: 0;
     padding: 10px 0;
     z-index: 1000;
+    margin-bottom: 30px;
 }
 
 li {
@@ -94,6 +132,11 @@ a {
     color: rgb(255, 255, 255);
 }
 
+footer{
+    background-color: black;
+    height: 200px;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 36px;
@@ -114,5 +157,14 @@ a {
 
     li {
         margin: 5px;
+    }
+
+    #tin{
+        flex-direction: column;
+    }
+
+    div.ag{
+        width: 90%;
+        margin: 10px auto;
     }
 }
