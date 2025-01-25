@@ -204,6 +204,11 @@ footer{
         font-size: 10px;
     }
 
+    #mi{
+        width: 20px;
+        height: auto;
+    }
+
     #tin{
         flex-direction: column;
     }
