@@ -196,17 +196,12 @@ footer{
     }
 
     nav {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     li {
         margin: 5px;
         font-size: 10px;
-    }
-
-    #mi{
-        width: 20px;
-        height: auto;
     }
 
     #tin{
