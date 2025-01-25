@@ -19,6 +19,7 @@ body {
     margin: auto;
     padding: 20px;
 }
+
 span{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -35,17 +36,17 @@ span{
     width: 100%;
     color: white;
 }
+
 #int{
     font-size: 50px;
 }
 
 #ab{
-    width: 450px;
+    width: 350px;
     height: auto;
     margin: 10px;
     justify-content: center;
     border-radius: 10px;
-
     animation: fadeInUp 0.5s ease forwards;
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
