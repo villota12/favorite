@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to right, rgb(36, 23, 87), rgb(150,202,247), rgb(182, 221, 190), rgb(229,225,171), rgb(243,198,165), rgb(83, 9, 14));
+    background-image: linear-gradient(to right, #010332, #100328, #29011C, #43000D, #530005);
     font-family: Poppins, sans-serif;
     margin: 0;
 }
@@ -18,14 +18,15 @@ body {
     width: 80%;
     margin: auto;
     padding: 20px;
+    background-color: rgba(38, 29, 4, 0.136);
 }
 
 span{
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #int{
-    color: rgb(4, 53, 53);
+    color: rgb(12, 197, 197);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #ccc{
@@ -58,7 +59,7 @@ span{
 #ab:hover{
     transform: translateY(-7px);
     background-color: rgba(207, 207, 159, 0.036);
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 10px rgb(245, 241, 241);
 }
 
 /* khadjhsd */
@@ -74,7 +75,7 @@ div.A {
 }
 
 div.B{
-    background-color: rgba(247, 247, 247, 0.356);
+    background-color: rgba(207, 207, 159, 0.036);
     padding: 10px;
     border-radius: 10px;
     margin: 20px;
@@ -89,8 +90,8 @@ div.B{
 
 div.B:hover{
     transform: translateY(-7px);
-    background-color: rgba(207, 207, 159, 0.036);
-    box-shadow: 1px 1px 10px black;
+    background-color: rgba(247, 247, 247, 0.147);
+    box-shadow: 1px 1px 10px rgb(245, 241, 241);
 }
 
 img {
@@ -101,7 +102,7 @@ img {
 }
 
 nav {
-    background-image: linear-gradient(to bottom ,rgba(27, 26, 26, 0.808), rgba(255, 255, 255, 0.781));
+    background-image: linear-gradient(to bottom, rgba(42, 36, 36, 0.456), rgb(17, 1, 10));
     display: flex;
     align-items: center;
     width: 100%;
@@ -134,7 +135,7 @@ li:hover {
 h1 {
     margin-left: 20px;
     border-radius: 7px;
-    color: rgba(0, 0, 0, 0.884);
+    color: rgba(245, 243, 243, 0.884);
     padding-left: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
